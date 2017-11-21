@@ -17,7 +17,7 @@ list
       - what will happen?
  
  quote something:
- > No business too sall, no problem too big
+ > No business too small, no problem too big
  > --IBM
  
  ```python
