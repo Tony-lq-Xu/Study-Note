@@ -35,3 +35,6 @@ def myfun(num):
 ## OMS system
 ### fixing data
 if order line missed in confirm, just add the missing line to confirm interface.
+
+## Vim
+27iha^esc : input 'ha' 27 times
