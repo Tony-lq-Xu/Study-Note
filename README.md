@@ -46,3 +46,5 @@ if order line missed in confirm, just add the missing line to confirm interface.
 import os
 os.getcwd()
 ```
+
+byte strings hold bytes-based data, not decoded Unicode code point ordinals.
