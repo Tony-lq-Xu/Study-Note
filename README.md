@@ -48,3 +48,6 @@ os.getcwd()
 ```
 
 byte strings hold bytes-based data, not decoded Unicode code point ordinals.
+
+## knowledge
+The Document Object Model (DOM) is a cross-platform and language-independent application programming interfacethat treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document. 
