@@ -37,6 +37,11 @@ def myfun(num):
 if order line missed in confirm, just add the missing line to confirm interface.
 
 ## Vim
+### Command
+0: cursor to begin of the line
+$: cursor to end of the line
+
+### Example
 27iha^esc : input 'ha' 27 times
 
 ## Python
