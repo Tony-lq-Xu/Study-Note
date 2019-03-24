@@ -55,6 +55,9 @@ Copy and paste is performed with the same steps except for step 4 where you woul
 d stands for delete in Vim, which in other editors is usually called cut
 y stands for yank in Vim, which in other editors is usually called copy
 
+### search then replace
+:%s/Search-Word/Replace-Word/gc
+
 ### Example
 27iha^esc : input 'ha' 27 times
 
