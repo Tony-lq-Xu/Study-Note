@@ -1,0 +1,8 @@
+from tkinter import *
+
+win = Frame()
+win.pack(side = TOP, expand = YES, fill = BOTH)
+Button(win, text = 'Left').pack(side = LEFT, fill = Y)
+Button(win, text = 'top button testing haha').pack(side = TOP)
+Button(win, text = 'right').pack(side = LEFT, fill = X , expand = YES)
+win.mainloop()
