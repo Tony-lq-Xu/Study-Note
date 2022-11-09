@@ -11,15 +11,10 @@ def count_file_bytype(work_dir):
         else:
             result[file_extension] = 1
 
-    import pprint
     result = sorted(result.items(),key= lambda x: x[1], reverse=True)
-    #pprint.pprint(result)
     for item in result:
-        if item[1]>50:
+        if item[1]>5: #only print file types more than 5 files
             print(item)
 
 if __name__ == '__main__':
-    #count_file_bytype(r'C:\SVN\Decommission')
-    #count_file_bytype(r'C:\SVN')
-    with open('C:\\SVN\\Decommission\\formular.txt') as f:
-        print(f.read())
+    count_file_bytype(r'C:\SVN')
